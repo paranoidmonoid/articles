@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="640" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ffffff" height="42" id="svg_24" stroke="#000000" stroke-width="2" width="400" x="101.916667" y="102.353516"/>
+  <line fill="none" id="svg_23" stroke="#000000" stroke-width="2" x1="101.916667" x2="101.916667" y1="101.353516" y2="174.353516"/>
+  <line fill="none" id="svg_22" stroke="#ff0000" stroke-width="2" x1="279.666667" x2="279.666667" y1="71.666672" y2="145.353516"/>
+  <line fill="none" id="svg_21" stroke="#ff0000" stroke-width="2" x1="348.666667" x2="348.666667" y1="72.353516" y2="145.353516"/>
+  <text fill="#000000" font-family="Monospace" font-size="22" id="svg_20" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(0.660559 0 0 0.660559 26.2006 13.4079)" x="383.25543" xml:space="preserve" y="76.824473">createdAt</text>
+  <text fill="#000000" font-family="Monospace" font-size="18" id="svg_19" stroke="#000000" stroke-width="0" text-anchor="middle" x="347.164324" xml:space="preserve" y="64.580027">now</text>
+  <text fill="#000000" font-family="Monospace" font-size="24" id="svg_25" stroke="#000000" stroke-width="0" text-anchor="middle" x="101.666667" xml:space="preserve" y="193.500005">n</text>
+  <line fill="none" id="svg_26" stroke="#000000" stroke-width="2" x1="300.916667" x2="300.916667" y1="171.416672" y2="103.416672"/>
+  <line fill="none" id="svg_27" stroke="#000000" stroke-width="2" x1="501.916667" x2="501.916667" y1="171.916672" y2="101.916672"/>
+  <text fill="#000000" font-family="Monospace" font-size="24" id="svg_28" stroke="#000000" stroke-width="0" text-anchor="middle" x="502.083333" xml:space="preserve" y="192.833338">n+2</text>
+  <text fill="#000000" font-family="Monospace" font-size="24" id="svg_29" stroke="#000000" stroke-width="0" text-anchor="middle" x="301.416667" xml:space="preserve" y="193.666672">n+1</text>
+  <text fill="#000000" font-family="Monospace" font-size="24" id="svg_30" stroke="#000000" stroke-width="0" text-anchor="middle" x="522.166667" xml:space="preserve" y="157.166672">ms</text>
+ </g>
+</svg>
