@@ -1,6 +1,6 @@
 # Chasing the bug: How Kotlin type system betrays us
 
-In our of our projects we are using Kotlin spiced with Arrow. 
+In our of our projects we are using Kotlin spiced with [Arrow](https://arrow-kt.io/). 
 More specific, let's take a look on the class called `Either`.
 If you've listened to my talk about hands-on Arrow ([slides](https://speakerdeck.com/paranoidmonoid/hands-on-arrow), [video](https://www.youtube.com/watch?v=tkl9EaUMfm8)), you'll probably remember what `Either` is. But if you don't, let me remind you.
 Either is a class as follows:
@@ -35,7 +35,7 @@ But sometimes a test case which called this code block failed with ```kotlin.NoW
 ### Setup
 Speaking of "sometimes", to be more precise, it happened once or twice a week. Our team is relatively small, so, let's say once per 150 builds.
 
-This test was touching the code base with coroutines, the tests were run in parallel and as a testing framework we used Mockito-Kotlin.
+This test was touching the code base with coroutines, the tests were run in parallel and as a testing framework we used [Mockito-Kotlin](https://github.com/mockito/mockito-kotlin).
 
 Eventually, it was time for dirty hacks. No one talks about it, but we all do this. Since that test failed just once or twice a week randomly, let's wrap our test with `while(true)` loop until it eventually fails and put some good old `logger.error` or simply `println`s. ¯\\_(ツ)_/¯ 
 
