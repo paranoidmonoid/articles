@@ -2,7 +2,7 @@
 
 In our of our projects we are using Kotlin spiced with Arrow. 
 More specific, let's take a look on the class called `Either`.
-If you've listened to my talk about hands-on arrow, you'll probably remember what `Either` is. But if you don't, let me remind you.
+If you've listened to my talk about hands-on Arrow ([slides](https://speakerdeck.com/paranoidmonoid/hands-on-arrow), [video](https://www.youtube.com/watch?v=tkl9EaUMfm8)), you'll probably remember what `Either` is. But if you don't, let me remind you.
 Either is a class as follows:
 
 ```kotlin
