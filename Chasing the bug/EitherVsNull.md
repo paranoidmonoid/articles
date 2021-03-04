@@ -64,11 +64,11 @@ Event(
 Later the author of the test took `created` from expected (which was used in the mock) and `now` from actual (which was *passed* to the mock).
 While most of the time those are equal when rounded (both up) to milliseconds, if `created` happens right to the current ms' end `now` will happen in the next ms-window.
 
-![](./img/eithervsnull/milliseconds-same.svg)
+![](../img/eithervsnull/milliseconds-same.svg)
 
 Both will be rounded to `n+1`
 
-![](./img/eithervsnull/milliseconds-different.svg)
+![](../img/eithervsnull/milliseconds-different.svg)
 
 `createdAt` would be `n+1`, but `now` happened at `n+2` when rounded up
 
