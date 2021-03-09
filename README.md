@@ -4,3 +4,6 @@
 ### Coming soon
 - "Fun" as in "funeral": fullstack development using Kotlin
 - Hands-on Arrow
+
+---
+Follow me on [Twitter](https://twitter.com/paranoidmonoid)
