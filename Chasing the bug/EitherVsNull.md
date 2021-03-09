@@ -1,7 +1,7 @@
 # Chasing the bug: How Kotlin type system betrays us
 
 In our of our projects we are using Kotlin spiced with [Arrow](https://arrow-kt.io/). 
-More specific, let's take a look on the class called `Either`.
+More specifically, let's take a look at the class called `Either`.
 If you've listened to my talk about hands-on Arrow ([slides](https://speakerdeck.com/paranoidmonoid/hands-on-arrow), [video](https://www.youtube.com/watch?v=tkl9EaUMfm8)), you'll probably remember what `Either` is. But if you don't, let me remind you.
 Either is a class as follows:
 
@@ -83,9 +83,9 @@ So, the following happened:
 - as types are checked on compile-time and not on runtime, `val e: Either<A, B> = null` was written
 - null was not matched as `Left` or `Right` leading to `NoWhenBranchMatchedException`
 
-As it was just a typo, simply fixing the source of timestamp worked and it worked like charm. But could this situation and long debug process be prevented?
+As it was just a typo, simply fixing the source of timestamp worked and it worked like a charm. But could this situation and long debug process be prevented?
 
 ### Conclusions
 After this investigation I decided to have less Java in our Kotlin and migrated our project to mockk. :)
 
-While most of the issues can be predicted on compile time, this one caught us by surpise and took a whole evening to debug. **So the less interactions with wraps instead of idiomatic libraries the better.**
+While most of the issues can be predicted on compile time, this one caught us by surprise and took a whole evening to debug. **So the less interactions with wraps instead of idiomatic libraries the better.**
