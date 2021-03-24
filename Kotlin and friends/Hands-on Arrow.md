@@ -47,7 +47,7 @@ NonEmptyListOf() // doesn't compile
 
 NonEmptyList(1, 2, 3, 4, 5) // NonEmptyList<Int>
 ```
-To add a smmoth integration with Jackson use [Arrow Integrations Jackson Module](https://mvnrepository.com/artifact/io.arrow-kt/arrow-integrations-jackson-module)
+To add a smooth integration with Jackson use [Arrow Integrations Jackson Module](https://mvnrepository.com/artifact/io.arrow-kt/arrow-integrations-jackson-module)
 
 Now our domain-specific logic is reflected in our code base. Sounds easy, isn't it?
 
