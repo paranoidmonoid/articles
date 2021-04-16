@@ -179,3 +179,7 @@ with(purchase) {
 
 We hope those ideas will help you to introduce Kotlin in tests. If you are not ready for rewriting old tests, 
 you can also start with adding new tests only in Kotling and occasionally convert the older ones. And most importantly, enjoy!
+
+---
+
+Written by [Karin-Aleksandra Monoid](https://twitter.com/paranoidmonoid) and [Alex Levin](https://twitter.com/Jellymath)
