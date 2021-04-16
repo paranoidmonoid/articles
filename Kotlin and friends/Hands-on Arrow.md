@@ -311,5 +311,8 @@ What would be your next steps?
 * ???
 * Get a PhD
 * ???
-* Free, Coyoneda, Cokleisli
+* `Free`, `Coyoneda`, `Cokleisli`
 
+---
+
+Written by [Karin-Aleksandra Monoid](https://twitter.com/paranoidmonoid) 
