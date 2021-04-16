@@ -89,3 +89,7 @@ As it was just a typo, simply fixing the source of timestamp worked and it worke
 After this investigation I decided to have less Java in our Kotlin and migrated our project to mockk. :)
 
 While most of the issues can be predicted on compile time, this one caught us by surprise and took a whole evening to debug. **So the less interactions with wraps instead of idiomatic libraries the better.**
+
+---
+
+Written by [Karin-Aleksandra Monoid](https://twitter.com/paranoidmonoid) 
