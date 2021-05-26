@@ -23,7 +23,7 @@ object mapper:
 case `SNAKE_CASE`)
 
 This is useful when you have to integrate with other services written in various languages with different naming
-conventions because I don't really want to name my variables in my Kotlin code with `SNAKE_CASE` mixed
+conventions because I don't really want to name my variables in my Kotlin code with `snake_case` mixed
 with `camelCase`. Or add to every single variable a `@SerialName`. I'm just lazy.
 
 And like every lazy engineer I decided to spend a lot of time so I could stay lazy.
