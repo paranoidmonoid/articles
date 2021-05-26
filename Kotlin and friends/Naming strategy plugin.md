@@ -15,27 +15,27 @@ object mapper:
 
 ```kotlin
    val objectMapperUpperCamelCase = jacksonObjectMapper().configObjectMapper().copy().apply {
-    propertyNamingStrategy = PropertyNamingStrategies.UPPER_CAMEL_CASE
+    propertyNamingStrategy = PropertyNamingStrategies.SNAKE_CASE
 }
 ```
 
 `objectMapperUpperCamelCase.writeValueAsString()` will rename all the values according to the given strategy (in this
-case `UPPER_CAMEL_CASE`)
+case `SNAKE_CASE`)
 
 This is useful when you have to integrate with other services written in various languages with different naming
-conventions because I don't really want to name my variables in my Kotlin code with `UPPER_SNAKE_CASE` mixed
+conventions because I don't really want to name my variables in my Kotlin code with `SNAKE_CASE` mixed
 with `camelCase`. Or add to every single variable a `@SerialName`. I'm just lazy.
 
 And like every lazy engineer I decided to spend a lot of time so I could stay lazy.
 
-I wanted to try [Arrow Meta](https://meta.arrow-kt.io/) for a long time. It's a meta-programming library that "
-cooperates with the Kotlin compiler in all its phases" which opens a way to write compiler plugins, linters or add
+I wanted to try [Arrow Meta](https://meta.arrow-kt.io/) for a long time. It's a meta-programming library that 
+"cooperates with the Kotlin compiler in all its phases" which opens a way to write compiler plugins, linters or add
 custom code refactoring. Sadly, the library doesn't have a lot of docs and descriptions for the beginners, so, today we
 are going to learn by example.
 
 ### Introduction
 
-Today we are going to build a zoo. Various animals (actually, only cats) from various sources (= 3rd party services)with
+Today we are going to build a zoo: various animals (actually, only cats) from various sources (= 3rd party services)with
 various standards of documentation (in JSON format with different naming policies).
 
 A generic cat is described as usual via data class:
