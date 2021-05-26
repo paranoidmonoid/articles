@@ -35,7 +35,7 @@ are going to learn by example.
 
 ### Introduction
 
-Today we are going to build a zoo: various animals (actually, only cats) from various sources (= 3rd party services)with
+Today we are going to build a zoo: various animals (actually, only cats) from various sources (= 3rd party services) with
 various standards of documentation (in JSON format with different naming policies).
 
 A generic cat is described as usual via data class:
