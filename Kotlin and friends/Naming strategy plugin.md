@@ -14,13 +14,13 @@ In [Jackson](https://github.com/FasterXML/jackson-module-kotlin) you could defin
 object mapper:
 
 ```kotlin
-   val objectMapperUpperCamelCase = jacksonObjectMapper().configObjectMapper().copy().apply {
-    propertyNamingStrategy = PropertyNamingStrategies.SNAKE_CASE
+   val objectMapperUpperCamelCase = jacksonObjectMapper().apply {
+    propertyNamingStrategy = PropertyNamingStrategies.UPPER_SNAKE_CASE
 }
 ```
 
 `objectMapperUpperCamelCase.writeValueAsString()` will rename all the values according to the given strategy (in this
-case `SNAKE_CASE`)
+case `UPPER_SNAKE_CASE`)
 
 This is useful when you have to integrate with other services written in various languages with different naming
 conventions because I don't really want to name my variables in my Kotlin code with `snake_case` mixed
